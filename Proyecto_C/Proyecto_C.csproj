@@ -423,11 +423,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\InfanteController.cs" />
     <Compile Include="Controllers\MadreController.cs" />
     <Compile Include="Controllers\PersonaController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Infante.cs" />
     <Compile Include="Models\Madre.cs" />
     <Compile Include="Models\Persona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -444,6 +446,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Madre\Listar.cshtml" />
     <Content Include="Views\Madre\Editar.cshtml" />
+    <Content Include="Views\Infante\Editar.cshtml" />
+    <Content Include="Views\Infante\Listar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
